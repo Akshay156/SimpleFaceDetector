@@ -1,0 +1,18 @@
+{
+"camera_configuration": {
+
+    "camera_1": {
+        
+        "type": "usb",
+        "uri": "/dev/video0",
+        "resolution": [1280, 720],
+        "fps": 30,
+        "process" : {
+                "name": "face_recognition",
+                "skip_frames": 0,
+                "max_person_to_recognise": 5
+                }
+
+    }
+}
+}
