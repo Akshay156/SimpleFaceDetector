@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>911</width>
+    <height>609</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="toolTip">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enroll App&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">    background-color: #ecf5fd; /* Light blue background color */</string>
+  </property>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>702</x>
+     <y>280</y>
+     <width>180</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>15</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Output:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>691</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_view_cam">
+      <property name="minimumSize">
+       <size>
+        <width>680</width>
+        <height>460</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>682</width>
+        <height>460</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">    background-color: #d3f8d3; /* Light green background color */
+    border: 2px solid #006400; /* Dark green border color */</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_face_1">
+        <property name="minimumSize">
+         <size>
+          <width>110</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>110</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">    background-color: #d3f8d3; /* Light green background color */
+    border: 2px solid #006400; /* Dark green border color */</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_face_2">
+        <property name="minimumSize">
+         <size>
+          <width>110</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>110</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">    background-color: #d3f8d3; /* Light green background color */
+    border: 2px solid #006400; /* Dark green border color */</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_face_3">
+        <property name="minimumSize">
+         <size>
+          <width>110</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>110</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">    background-color: #d3f8d3; /* Light green background color */
+    border: 2px solid #006400; /* Dark green border color */</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_face_4">
+        <property name="minimumSize">
+         <size>
+          <width>110</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>110</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">    background-color: #d3f8d3; /* Light green background color */
+    border: 2px solid #006400; /* Dark green border color */</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_face_5">
+        <property name="minimumSize">
+         <size>
+          <width>110</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>110</width>
+          <height>110</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">    background-color: #d3f8d3; /* Light green background color */
+    border: 2px solid #006400; /* Dark green border color */</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>510</y>
+     <width>201</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QPushButton" name="button_start">
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Start the Camera feed&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    font-weight: bold;
+    font-size: 14px; /* Set your desired font size */
+    color: #ffffff; /* Set your desired text color */
+    background-color: #007bff; /* Set your desired background color */
+    border: 2px solid #006400; /* Dark green border color */    border-radius: 5px; /* Set your desired border radius */
+    padding: 5px 10px; /* Set your desired padding */
+}
+
+QPushButton:hover {
+    background-color: #0056b3; /* Set your desired hover background color */
+    border: 1px solid #0056b3; /* Set your desired hover border color */
+}</string>
+        </property>
+        <property name="text">
+         <string>Start</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="button_verify">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    font-weight: bold;
+    font-size: 14px; /* Set your desired font size */
+    color: #ffffff; /* Set your desired text color */
+    background-color: #007bff; /* Set your desired background color */
+    border: 2px solid #006400; /* Dark green border color */    border-radius: 5px; /* Set your desired border radius */
+    padding: 5px 10px; /* Set your desired padding */
+}
+
+QPushButton:hover {
+    background-color: #0056b3; /* Set your desired hover background color */
+    border: 1px solid #0056b3; /* Set your desired hover border color */
+}</string>
+        </property>
+        <property name="text">
+         <string>Verify</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QPushButton" name="button_enroll">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    font-weight: bold;
+    font-size: 14px; /* Set your desired font size */
+    color: #ffffff; /* Set your desired text color */
+    background-color: #007bff; /* Set your desired background color */
+    border: 2px solid #006400; /* Dark green border color */    border-radius: 5px; /* Set your desired border radius */
+    padding: 5px 10px; /* Set your desired padding */
+}
+
+QPushButton:hover {
+    background-color: #0056b3; /* Set your desired hover background color */
+    border: 1px solid #0056b3; /* Set your desired hover border color */
+}</string>
+        </property>
+        <property name="text">
+         <string>Enroll</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="button_reset">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    font-weight: bold;
+    font-size: 14px; /* Set your desired font size */
+    color: #ffffff; /* Set your desired text color */
+    background-color: #007bff; /* Set your desired background color */
+    border: 2px solid #006400; /* Dark green border color */    border-radius: 5px; /* Set your desired border radius */
+    padding: 5px 10px; /* Set your desired padding */
+}
+
+QPushButton:hover {
+    background-color: #0056b3; /* Set your desired hover background color */
+    border: 1px solid #0056b3; /* Set your desired hover border color */
+}</string>
+        </property>
+        <property name="text">
+         <string>Reset</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>701</x>
+     <y>11</y>
+     <width>202</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-weight: bold;
+        font-size: 25px;
+        color: #ffffff;
+        background-color: #007bff;
+    border: 2px solid #006400; /* Dark green border color */    border-radius: 5px; /* Set your desired border radius */
+        padding: 5px 10px;</string>
+      </property>
+      <property name="text">
+       <string>Face Enroller</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="line_edit_name">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+QLineEdit {
+    color: #555555; /* Set your desired text color */
+}
+
+QLineEdit:placeholder {
+    color: #999999; /* Set your desired placeholder text color */
+}
+
+QLineEdit:focus {
+    color: #000000; /* Set your desired text color when focused */
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Phone Number</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="line_edit_phone">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+QLineEdit {
+    color: #555555; /* Set your desired text color */
+}
+
+QLineEdit:placeholder {
+    color: #999999; /* Set your desired placeholder text color */
+}
+
+QLineEdit:focus {
+    color: #000000; /* Set your desired text color when focused */
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="styleSheet">
+       <string notr="true">font: 15pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Email Address</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="line_edit_email">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="text_edit_output">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>300</y>
+     <width>201</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>160</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>200</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>label_face_1</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>898</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>135</x>
+     <y>537</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>label_view_cam</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>898</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>496</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit_output</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>898</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>892</x>
+     <y>321</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>line_edit_email</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>898</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>891</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>line_edit_phone</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>898</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>883</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>line_edit_name</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>898</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>877</x>
+     <y>106</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>label_face_2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>835</x>
+     <y>582</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>224</x>
+     <y>556</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>label_face_3</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>807</x>
+     <y>578</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>363</x>
+     <y>553</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>label_face_4</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>821</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>532</x>
+     <y>578</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_reset</sender>
+   <signal>clicked()</signal>
+   <receiver>label_face_5</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>838</x>
+     <y>589</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>633</x>
+     <y>571</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
