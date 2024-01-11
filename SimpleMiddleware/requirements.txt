@@ -1,0 +1,6 @@
+fastapi;
+sqlalchemy;
+numpy;
+opencv-python;
+opencv-contrib-python;
+psycopg2;
