@@ -68,9 +68,3 @@ Run:
     
     $ cd Enrollment
     $ python3 main.py 
-
-
-
-
-
-
