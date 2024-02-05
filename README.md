@@ -1,3 +1,6 @@
+Please do not mind the coding standard. This code was uploaded as a time constrained assignment.
+
+
 # SimpleFaceDetector
 ![Alt Text](Enroller-System.png)
 
